@@ -1,10 +1,11 @@
 import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+import './global.css';
+
+import Routes from './routes'; 
+
+function App (){
+  return (<Routes />);
 }
 
-export default App;
+export default App; 
