@@ -4,7 +4,6 @@
 }
 
 .navbar .bg {
-    /* position:relative;  */
     background-image: url("../../assets/icons/bg-menu.svg");
     width: 8rem;
     height: 8rem;
