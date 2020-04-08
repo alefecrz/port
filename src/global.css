@@ -15,11 +15,10 @@
 }
 
 body {
-  margin-left: 5rem;
-  background: #2D132C;
+  background:  #2D132C;
   color: #fff;
-  padding: 1rem;
 }
+
 
 body::-webkit-scrollbar {
   width: 0.25rem;
@@ -31,7 +30,7 @@ body::-webkit-scrollbar-track {
 } 
 body::-webkit-scrollbar-thumb {
   background: #801336;
-} 
+}
 
 input, button, textarea {
   font: 400 18px Roboto, sans-serif;

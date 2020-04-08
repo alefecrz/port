@@ -1,0 +1,37 @@
+.navbar {
+    position: fixed;
+    cursor: pointer;
+}
+
+.navbar .bg {
+    /* position:relative;  */
+    background-image: url("../../assets/icons/bg-menu.svg");
+    width: 8rem;
+    height: 8rem;
+    background-repeat: no-repeat;
+    background-size: 10rem 10rem;
+    background-position: 240% 240%;
+    transition:  height 200ms ease, width 200ms ease;
+
+}
+
+.navbar .icon {
+    position:absolute; 
+    top:0; 
+    left:0;
+}
+
+.navbar .icon img {
+    margin: 0.6rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.navbar:hover .bg {
+    width: 40rem;
+    height: 40rem;
+    background-size: 80rem 80rem;
+    background-position: 90% 90%;
+}
+
+
