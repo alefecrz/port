@@ -8,7 +8,7 @@
     display: grid;
     grid-template-rows: 4fr;
     grid-gap: 0px;
-    /* min-height: 628px; */
+    min-height: 628px;
 }
 
 
