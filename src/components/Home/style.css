@@ -55,6 +55,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    -webkit-animation: blinky 2s infinite;
     animation: blinky 2s infinite;
 }
 
