@@ -2,18 +2,18 @@
     max-width: 1366px;
     width: 100%;
     height: 100vh;
-    padding: 0 5rem 0 5rem;
-
+    padding: 0 2rem 2rem 2rem ;
     background-image: url('../../assets/img/bg.png');
     background-size: cover;
+    display: grid;
+    grid-template-rows: 4fr;
+    grid-gap: 0px;
+    min-height: 628px;
 }
 
-.home-conteiner img {
-    margin-top: 1rem;
-}
 
 .home-conteiner .text-conteiner {
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 .home-conteiner .text-conteiner h1 {
@@ -48,7 +48,7 @@
 }
 
 .home-conteiner .down-conteiner {
-   
+    padding-top: 2rem;
 }
 
 .home-conteiner .down-conteiner img{
