@@ -1,0 +1,71 @@
+.home-conteiner {   
+    max-width: 1366px;
+    width: 100%;
+    height: 100vh;
+    padding: 0 5rem 0 5rem;
+
+    background-image: url('../../assets/img/bg.png');
+    background-size: cover;
+}
+
+.home-conteiner img {
+    margin-top: 1rem;
+}
+
+.home-conteiner .text-conteiner {
+    margin-top: 7rem;
+}
+
+.home-conteiner .text-conteiner h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.home-conteiner .text-conteiner h1 span {
+    color: #EE4540;
+}
+
+.home-conteiner .text-conteiner p {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.home-conteiner .text-conteiner p span {
+    color: #EE4540;
+}
+
+.home-conteiner .icons-conteiner {
+    margin-top: 1.5rem;
+}
+
+.home-conteiner .icons-conteiner img{
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.home-conteiner .icons-conteiner img:hover{
+    transform: scale(1.2);
+}
+
+.home-conteiner .down-conteiner {
+   
+}
+
+.home-conteiner .down-conteiner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: blinky 2s infinite;
+}
+
+@keyframes blinky {
+    0% {opacity: 100%;}
+    50% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+.home-conteiner .down-conteiner p{
+    animation: blinky 2s infinite;
+    margin-top: 0.5rem;
+    text-align: center
+}
