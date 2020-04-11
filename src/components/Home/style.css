@@ -6,9 +6,8 @@
     background-image: url('../../assets/img/bg.png');
     background-size: cover;
     display: grid;
-    grid-template-rows: 4fr;
-    grid-gap: 0px;
-    min-height: 628px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    min-height: 375px;
 }
 
 
@@ -36,6 +35,7 @@
 
 .home-conteiner .icons-conteiner {
     margin-top: 1.5rem;
+
 }
 
 .home-conteiner .icons-conteiner img{
@@ -49,24 +49,57 @@
 
 .home-conteiner .down-conteiner {
     padding-top: 2rem;
-}
-
-.home-conteiner .down-conteiner img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-animation: blinky 2s infinite;
-    animation: blinky 2s infinite;
+    align-self: end;
+    justify-self: center;
 }
 
 @keyframes blinky {
-    0% {opacity: 100%;}
-    50% {opacity: 0%;}
-    100% {opacity: 100%;}
+    50% { opacity: 0.0; }
+}
+
+@-webkit-keyframes blinky {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+.home-conteiner .down-conteiner img{
+    animation: blinky 2s step-start 1s infinite;
+    -webkit-animation: blinky 2s step-start 1s infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home-conteiner .down-conteiner p{
-    animation: blinky 2s infinite;
     margin-top: 0.5rem;
-    text-align: center
+    animation: blinky 2s step-start 1s infinite;
+    -webkit-animation: blinky 2s step-start 1s infinite;
 }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    :root {
+        font-size: 10px;
+    }
+    .home-conteiner *{
+        justify-self: center;
+        align-self: center;
+    }
+  
+}
+
+@media (max-height: 511px) {
+    /* For mobile phones: */
+    :root {
+        font-size: 10px;
+    }
+    .home-conteiner {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:1fr 1fr;
+        background-size: initial;
+    }
+  
+}
+  
