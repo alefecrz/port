@@ -4,8 +4,8 @@ import './style.css';
 import Home from '../../components/Home';
 import Aboutme from '../../components/Aboutme';
 // import Navbar from '../../components/Navbar';
-import Project from '../../components/Project';
-import Contact from '../../components/Contact';
+// import Project from '../../components/Project';
+// import Contact from '../../components/Contact';
 
 export default function Site () {
     return (
@@ -13,8 +13,8 @@ export default function Site () {
             {/* <Navbar /> */}
             <Home />
             <Aboutme />
-            <Project />
-            <Contact />
+            {/* <Project />
+            <Contact /> */}
         </div>
     );
 }

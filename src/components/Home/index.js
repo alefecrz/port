@@ -12,11 +12,11 @@ import mauseIcon from '../../assets/icons/icon-mause.svg'
 class Home extends Component {
     render() {
         return (
-            <div className="home-conteiner">
+            <div className="home">
                 <div>
                     <img src={ logoImg } alt=""/>
                 </div>
-                <div className="text-conteiner">
+                <div className="text">
                     <div>
                         <h1>HI! I'M  <span>ÁLEFE CRUZ</span></h1>
                         <p>I AM <span>FULL STACK</span> DEVELOPER</p>
@@ -25,13 +25,13 @@ class Home extends Component {
                         Ver Projetos
                     </button>
                 </div>
-                <div className="icons-conteiner">
+                <div className="icons">
                     <img src={ githubIcon } alt=""/>
                     <img src={ linkedinIcon } alt=""/>
                     <img src={ facebookIcon } alt=""/>
                     <img src={ instagramIcon } alt=""/>
                 </div>
-                <div className="down-conteiner">
+                <div className="down">
                     <img src={ mauseIcon } alt=""/>
                     <p>SCROLL DOWN</p>
                 </div>
