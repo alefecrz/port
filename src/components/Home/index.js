@@ -26,10 +26,27 @@ class Home extends Component {
                     </button>
                 </div>
                 <div className="icons">
-                    <img src={ githubIcon } alt=""/>
-                    <img src={ linkedinIcon } alt=""/>
-                    <img src={ facebookIcon } alt=""/>
-                    <img src={ instagramIcon } alt=""/>
+                    <a 
+                        target="_blanc" 
+                        href="https://github.com/alefecrz/">
+                            <img src={ githubIcon } alt=""/>
+                    </a>
+                    <a 
+                        target="_blanc" 
+                        href="https://www.linkedin.com/in/%C3%A1lefe-cruz-27a64918a/">
+                            <img src={ linkedinIcon } alt=""/>      
+
+                    </a>
+                    <a 
+                        target="_blanc" 
+                        href="https://www.facebook.com/alefe.cruz">
+                        <img src={ facebookIcon } alt=""/>
+                    </a>
+                    <a 
+                        target="_blanc" 
+                        href="#">
+                        <img src={ instagramIcon } alt=""/>
+                    </a>
                 </div>
                 <div className="down">
                     <img src={ mauseIcon } alt=""/>

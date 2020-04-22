@@ -17,7 +17,7 @@ class Aboutme extends Component {
         return (
             <div className= "aboutme">
                 <div className="text">
-                    <h1>ABAUT ME</h1>
+                    <h1>ABOUT ME</h1>
                     <p>I'm Computer Engineering Student from Universidade de Pernambuco(UPE). Learning lover, I like to research, learn and discuss new things.
                     </p>
                 </div>

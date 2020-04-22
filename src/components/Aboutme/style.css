@@ -110,7 +110,7 @@
 .item {
     margin: 0.5rem;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     margin-left: 2rem;
 }
 
