@@ -1,8 +1,7 @@
 .aboutme {
     max-width: 1366px;
     width: 100%;
-    height: 100vh;
-    padding: 0 4rem 6.5rem 4rem ;
+    padding: 0 4rem 2rem 4rem ;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -53,10 +52,13 @@
     list-style: none;
     position: relative;
     width: 15rem;
-    height: 17rem;
     border-radius: 10px;
     box-shadow: 1px 1px 4px 1px;
     position: relative;
+}
+
+.skills ul li div:last-child{
+   margin-bottom: 3rem;
 }
 
 @keyframes rotation {
@@ -125,11 +127,10 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px), only screen and (max-height: 520px){
     .aboutme {
         display: flex;
         flex-direction: column;
-        height: 215vh;
     }   
     .text h1 {
         text-align: center;
@@ -144,7 +145,6 @@
         margin-top: 5rem ;
         list-style: none;
         width: 100%;
-        height: 26rem;
         border-radius: 10px;
         box-shadow: 1px 1px 4px 1px;
         position: relative;
@@ -173,13 +173,4 @@
         color: #2C4459;
         margin-bottom: 1rem;
     }
-}
-
-
-@media (max-height: 511px) {
-    /* For mobile phones: */
-    .aboutme {
-        height: 400vh;
-    }
-  
 }
