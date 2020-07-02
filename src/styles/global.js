@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+import backgroundButton from '../assets/icons/button.svg';
+
 export default createGlobalStyle`
 
   @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
@@ -73,7 +75,7 @@ export default createGlobalStyle`
     line-height: 60px;
     transition: transform 0.2s;
     position: relative;
-    background-image: url('./assets/icons/button.svg');
+    background-image: url(${backgroundButton});
     background-repeat: no-repeat;
     background-position: 50% 30%;
   }
