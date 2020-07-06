@@ -5,7 +5,7 @@ import logoImg from '../../assets/img/logo.svg'
 
 import githubIcon from '../../assets/icons/icon-github.svg'
 import facebookIcon from '../../assets/icons/icon-facebook.svg'
-// import instagramIcon from '../../assets/icons/icon-instagram.svg'
+import instagramIcon from '../../assets/icons/icon-instagram.svg'
 import linkedinIcon from '../../assets/icons/icon-linkedin.svg'
 import mauseIcon from '../../assets/icons/icon-mause.svg'
 
@@ -41,11 +41,11 @@ class Home extends Component {
               href="https://www.facebook.com/alefe.cruz">
               <img src={facebookIcon} alt="" />
             </a>
-            {/* <a
-                          target="_blanc"
-                          href="#">
-                          <img src={ instagramIcon } alt=""/>
-                      </a> */}
+            <a
+              target="_blanc"
+              href="https://www.instagram.com/alefe.cruz">
+              <img src={ instagramIcon } alt=""/>
+            </a>
           </Icons>
           <Down>
             <img src={mauseIcon} alt="" />
