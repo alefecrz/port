@@ -18,10 +18,29 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+
+  @media only screen and (max-width: 768px) {
+    & * {
+      justify-self: center;
+      align-self: center;
+    }
+  }
 `;
 
 export const Text = styled.div`
   margin-top: 3rem;
+
+  @media only screen and (max-width: 768px) {
+    & p {
+      text-align: center;
+    }
+
+    & .button {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 
   h1 {
     font-size: 3rem;
@@ -74,40 +93,3 @@ export const Down = styled.div`
     animation: ${blinky} 2s step-start 1s infinite;
   }
 `;
-
-/*
-
-/*
-@media only screen and (max-width: 768px) {
-  :root {
-      font-size: 10px;
-  }
-  .text p {
-      text-align: center;
-  }
-
-  .text .button {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
-  .home *{
-      justify-self: center;
-      align-self: center;
-  }
-
-}
-
-@media (max-height: 511px) {
-  :root {
-      font-size: 10px;
-  }
-
-  .home {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows:1fr 1fr;
-      background-size: initial;
-  }
-
-}
-*/
