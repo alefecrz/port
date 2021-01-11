@@ -63,15 +63,6 @@ export const Text = styled.div`
 
 export const Icons = styled.div`
   margin-top: 1.5rem;
-
-  img {
-    cursor: pointer;
-    transition: transform 0.2s;
-
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
 `;
 
 export const Down = styled.div`

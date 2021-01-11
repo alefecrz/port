@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Conteiner, Content, Text, Icons, Down } from './style';
 
+import SocialIcon from '../../components/SocialIcon';
+
 import logoImg from '../../assets/img/logo.svg'
 
 import githubIcon from '../../assets/icons/icon-github.svg'
@@ -18,6 +20,7 @@ class Home extends Component {
             <img src={logoImg} alt="" />
           </div>
           <Text>
+
             <h1>HI! I'M  <span>ÁLEFE CRUZ</span></h1>
             <p>I AM <span>FULL STACK</span> DEVELOPER</p>
             <button className="button" type="submit">
@@ -25,27 +28,30 @@ class Home extends Component {
             </button>
           </Text>
           <Icons>
-            <a
+            <SocialIcon
               target="_blanc"
-              href="https://github.com/alefecrz/">
-              <img src={githubIcon} alt="" />
-            </a>
-            <a
+              icon={githubIcon}
+              alt="GitHub"
+              href="https://github.com/alefecrz"
+            />
+            <SocialIcon
               target="_blanc"
-              href="https://www.linkedin.com/in/%C3%A1lefe-cruz-27a64918a/">
-              <img src={linkedinIcon} alt="" />
-
-            </a>
-            <a
+              icon={linkedinIcon}
+              alt="LinkedIN"
+              href="https://www.linkedin.com/in/%C3%A1lefe-cruz-27a64918a/"
+            />
+            <SocialIcon
               target="_blanc"
-              href="https://www.facebook.com/alefe.cruz">
-              <img src={facebookIcon} alt="" />
-            </a>
-            <a
+              icon={facebookIcon}
+              alt="Facebook"
+              href="https://www.facebook.com/alefe.cruz"
+            />
+             <SocialIcon
               target="_blanc"
-              href="https://www.instagram.com/alefe.cruz">
-              <img src={ instagramIcon } alt=""/>
-            </a>
+              icon={instagramIcon}
+              alt="Instagram"
+              href="https://www.instagram.com/alefecrz/"
+            />
           </Icons>
           <Down>
             <img src={mauseIcon} alt="" />
