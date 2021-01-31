@@ -31,6 +31,9 @@ export const Text = styled.div`
   margin-top: 3rem;
 
   @media only screen and (max-width: 768px) {
+    & h1 {
+      text-align: center;
+    }
     & p {
       text-align: center;
     }
