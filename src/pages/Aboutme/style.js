@@ -45,7 +45,7 @@ export const Image = styled.div`
   align-self: center;
 
   img {
-    filter: grayscale(100%);
+    margin-top: 50px;
     width: 25rem;
   }
 
