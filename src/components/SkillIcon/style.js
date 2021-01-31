@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const Conteiner = styled.div`
   position: relative;
+  display:flex;
+  align-items: center;
 
   @keyframes rotation {
     from {
@@ -35,6 +37,6 @@ export const Conteiner = styled.div`
     text-align: center;
     font-size: 20px ;
     color: #2C4459;
-    margin-bottom: 1rem;
+    margin: 2rem;
   }
 `;

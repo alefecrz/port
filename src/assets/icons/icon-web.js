@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Web = props => (
-    <svg version={1} viewBox="0 0 44.395 42.916" {... props}>
+    <svg version={1} viewBox="0 -3 44.395 42.916" {... props}>
         <g id="icon-web" transform="translate(0 -8.533)">
             <g id="Grupo_65" data-name="Grupo 65" transform="translate(0 8.533)">
             <g id="Grupo_64" data-name="Grupo 64">
